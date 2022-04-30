@@ -1,0 +1,21 @@
+create table secoes (
+    idSecao integer auto_increment not null,
+    nomeSecao varchar(40) not null,
+    descriSecao text,
+    imagemSecao blob not null,
+    primary key(idSecao)
+);
+
+create table produtos (
+    idProd integer auto_increment not null,
+    nomeProd text not null,
+    precoProd decimal(9,2 not null),
+    medidaProd varchar(50) not null,
+    imagemProd blob not null,
+    estoqueProd integer not null,
+    idSecao,
+    primary key(idProd)
+    foreign
+
+);
+
