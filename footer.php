@@ -10,7 +10,7 @@
 <a href="/">Sobre </a>
 <a href="/">Contato </a>
 <a href="/">Suporte </a>
-<a href="/">Administração </a>   
+<a href="admin.php">Administração </a>   
 </aside>
 
 </footer>
